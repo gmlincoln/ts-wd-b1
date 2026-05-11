@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=swap');
+
+body {
+    width: 80%;
+    margin: 100px auto;
+     font-family: "Cause", cursive;
+}
+
+.parent{
+    display: flex;
+    gap: 20px;
+
+}
+
+.twitter,
+.instagram,
+.youtube {
+    border: 1px solid black;
+    height: 250px;
+    width: 300px;
+    text-align: center;
+    padding: 20px 10px;
+    border-radius: 5px;
+}
+
+.twitter i,
+.instagram i,
+.youtube i {
+    margin-top: 20px;
+    font-size: 30px;
+}
+
+.twitter h3,
+.instagram h3,
+.youtube h3 {
+    text-transform: uppercase;
+}
+
+.twitter a,
+.instagram a,
+.youtube a{
+    border: 1px solid black;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.twitter a:hover,
+.instagram a:hover,
+.youtube a:hover{
+      background-color: #000;
+      color: #fff;
+}

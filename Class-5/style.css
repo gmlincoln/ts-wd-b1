@@ -1,0 +1,67 @@
+h2{
+    color: red;
+    font-size: 100px;
+}
+
+.first{
+    color: green;
+}
+
+#special{
+    color:brown;
+    font-size: 40px;
+}
+
+.first-heading{
+    color: darkblue;
+}
+
+.beautiful{
+    width: 300px;
+    border: 1px solid darkviolet;
+    margin: 50px 100px 200px 50px;
+    padding: 20px 40px;
+}
+
+.beautiful h3{
+    color: darkmagenta;
+}
+
+.beautiful p{
+    font-style: italic;
+}
+
+.card{
+    width: 300px;
+    border: 1px dashed darksalmon;
+    text-align: center;
+    margin: 100px auto;
+    padding: 10px 20px;
+}
+
+.card img{
+    width: 200px;
+}
+
+.product-cart{
+    width: 400px;
+    /* border: 2px solid brown; */
+    margin: 100px auto;
+    text-align: center;
+    padding: 20px 10px;
+    box-shadow: 1px 5px 10px black;
+    border-radius: 5px;
+}
+
+.product-cart img{
+    width: 300px;
+
+}
+
+.product-cart a{
+    text-decoration: none;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    background-color: black;
+    color: #ffffff;
+}

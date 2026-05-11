@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile Page</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px gray;
+        }
+
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 5px solid darkblue;
+        }
+
+        .about {
+            background-color: #e8f0fe;
+            padding: 15px;
+            border-left: 5px solid blue;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: darkred;
+        }
+
+        ul {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        ul li {
+            margin: 10px 0;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 10px;
+            margin-bottom: 15px;
+            border: 1px solid gray;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: darkblue;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: black;
+        }
+
+        a {
+            text-decoration: none;
+            color: blue;
+        }
+
+        a:hover {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>My Personal Profile</h1>
+
+        <img src="https://i.ibb.co/2kR7Y0P/profile.png" alt="Profile Image">
+
+        <div class="about">
+            <h2>About Me</h2>
+
+            <p>
+                Hello! My name is Mehedi Hasan. I am a beginner web developer.
+                I love learning HTML and CSS and want to become a full stack developer.
+            </p>
+        </div>
+
+        <h2>My Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+        </ul>
+
+        <h2>My Favorite Website</h2>
+
+        <p>
+            Visit
+            <a href="https://www.youtube.com" target="_blank">
+                YouTube
+            </a>
+        </p>
+
+        <h2>Login Form</h2>
+
+        <form>
+
+            <label>Full Name</label>
+            <input type="text" placeholder="Enter your name">
+
+            <label>Email</label>
+            <input type="email" placeholder="Enter your email">
+
+            <label>Password</label>
+            <input type="password" placeholder="Enter password">
+
+            <label>Select Course</label>
+
+            <select>
+                <option>Web Development</option>
+                <option>Graphic Design</option>
+                <option>Digital Marketing</option>
+            </select>
+
+            <button type="submit">Login</button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
