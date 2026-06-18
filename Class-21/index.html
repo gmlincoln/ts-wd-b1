@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Position</title>
+    <style>
+        .main-section {
+            border: 2px solid red;
+            width: 300px;
+            position: relative;
+        }
+
+        .box {
+            height: 200px;
+            width: 300px;
+            border: 1px solid green;
+            /* border-style: dotted; */
+        }
+
+        .box img {
+            width: 200px;
+            height: 150px;
+        }
+
+        /* .bat{
+           position: relative;
+           top: 100px;
+        } */
+
+        /* .ball {
+            position: absolute;
+            left: 300px;
+            top: 100px;
+        } */
+
+        .bat{
+            position: absolute;
+            z-index: 1;
+        }   
+
+        .ball{
+            position: absolute;
+            z-index: 0;
+            
+        }
+        .field{
+        }
+
+        .ball img{
+            width: 200px;
+            height: 200px;
+        }
+
+
+
+        .container-box{
+            border: 1px solid blue;
+        }
+
+        .container {
+            border: 1px dotted purple;
+            width: 200px;
+            height: 200px;
+        }
+        /* .one{
+            position: sticky;
+            top: 100px;
+        } */
+
+        /* .six{
+            position: fixed;
+            bottom: 100px;
+        } */
+    </style>
+</head>
+
+<body>
+
+    <ol>
+        <li>Static</li>
+
+        <li>Relative</li>
+        <li>Absolute</li>
+        <!-- Scroll Related -->
+        <li>Sticky</li>
+        <li>Fixed</li>
+    </ol>
+
+    <div class="main-section">
+
+        <div class="box bat">
+            <img src="./bat.png" alt="">
+        </div>
+        <div class="box ball">
+            <img src="./ball.png" alt="">
+        </div>
+        <div class="box">
+            <img src="./field.png" alt="">
+        </div>
+
+    </div>
+
+    <div class="container-box">
+        <div class="container one">Container-1</div>
+        <div class="container">Container-2</div>
+        <div class="container">Container-3</div>
+        <div class="container">Container-4</div>
+        <div class="container">Container-5</div>
+        <div class="container six">Container-6 Fixed Position</div>
+        <div class="container">Container-7</div>
+        <div class="container">Container-8</div>
+        <div class="container">Container-9</div>
+        <div class="container">Container-10</div>
+        <div class="container">Container-11</div>
+        <div class="container">Container-12</div>
+        <div class="container">Container-13</div>
+        <div class="container">Container-14</div>
+        <div class="container">Container-15</div>
+        <div class="container">Container-16</div>
+        <div class="container">Container-17</div>
+        <div class="container">Container-18</div>
+        <div class="container">Container-19</div>
+        <div class="container">Container-20</div>
+    </div>
+
+
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+
+
+
+</body>
+
+</html>

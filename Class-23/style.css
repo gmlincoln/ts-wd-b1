@@ -1,0 +1,13 @@
+.discount-section{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.discount{
+    position: absolute;
+    left: 25%;
+}
