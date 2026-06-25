@@ -317,7 +317,7 @@ Footer
 
 **Name:** Md. Golam Maula
 
-**Course:** Web Application Development
+**Course:** Web Design (Level-3)
 
 **Project:** WordPress Landing Page
 
