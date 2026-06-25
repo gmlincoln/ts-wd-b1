@@ -315,7 +315,7 @@ Footer
 
 # Author
 
-**Name:** Your Name
+**Name:** Md. Golam Maula
 
 **Course:** Web Application Development
 
